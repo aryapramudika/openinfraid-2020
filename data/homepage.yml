@@ -46,120 +46,185 @@ tab:
   tablist:
   # tab item
   - name : "Saturday"
-    date : "21th August 2020"
+    date : "7th November 2020"
     tablist_items:
+
     # speaker
     - speaker : "Master of Ceremony"
-      speaker_image : "images/speakers/mc-sandika-thumb.jpg"
       subject : "Opening"
-      venue : "Main Room"
-      time : "08.30 AM"
-    # speaker
-    - speaker : "M. Luthfi As Syafii"
-      speaker_image : "images/speakers/luthfi-tumb.jpg"
-      subject : "OpenStack Indonesia in Numbers"
-      venue : "Main Room"
-      time : "08.40 AM"
-    # speaker
-    - speaker : "Jonathan Bryce"
-      speaker_image : "images/speakers/jonathan-bryce-thumb.jpeg"
-    - speaker : "Mark Collier"
-      speaker_image : "images/speakers/mark-collier-thumb.jpg"
-      subject : "Keynote #1 - OpenInfra Foundation"
-      venue : "Main Room"
-      time : "09.00 AM"
-    - speaker : "Thierry Carrez"
-      speaker_image : "images/speakers/thierry-carrez-thumb.jpeg"
-    # speaker
-    - speaker : "Rico Lin"
-      speaker_image : "images/speakers/rico-lin-thumb.jpg"
-      subject : "Keynote #2 - EasyStack:From 0 to 1"
-      venue : "Main Room"
-      time : "09.30 AM"
-    # speaker
-    - speaker : "Wahyu Anggana"
-      speaker_image : "images/speakers/wahyu-anggana-thumb.jpg"
-      subject : "Lightning Talk #1 - Light Weight Orchestration Tools Using Nomad"
-      venue : "Main Room"
-      time : "10.00 AM"
-    # speaker
-    - speaker : "Cahyo Darujati"
-      speaker_image : "images/speakers/cahyo-darujati-thumb.jpg"
-      subject : "Lightning Talk #2 - Machine Learning tanpa Koding dengan Orange"
-      venue : "Main Room"
-      time : "10.10 AM"
-    # speaker
-    - speaker : "Prasta Maha"
-      speaker_image : "images/speakers/prasta-maha-thumb.jpg"
-      subject : "Talk #1 - Securing Kubernetes Service Using oauth2-proxy"
-      venue : "Main Room"
-      time : "10.20 AM"
-    # speaker
-    - speaker : "M. Fauzi Islami"
-      speaker_image : "images/speakers/fauzi-islami-thumb.jpg"
-      subject : "Talk #2 - Make Kubernetes Secret Object More Secret Using Sealed Secret"
-      venue : "Main Room"
-      time : "10.50 AM"
-    # speaker
-    - speaker : "Atwatan Malik"
-      speaker_image : "images/speakers/atwatan-malik-thumb.png"
-      subject : "Talk #3 - Implement Secure Containers using Kata Container and gVisor in Kubernetes"
-      venue : "Main Room"
-      time : "11.20 AM"
-    # speaker
-    - speaker : "Aji Arya"
-      speaker_image : "images/speakers/aji-arya-thumb.jpg"
-      subject : "Talk #4 - Block and Object Storage Solution with Ceph in Production"
-      venue : "Main Room"
-      time : "12.50 PM"
-    # speaker
-    - speaker : "Didiet A. Pambudiono"
-      speaker_image : "images/speakers/didiet-pambudiono-thumb.jpg"
-      subject : "Talk #5 - Sending Prometheus Alertmanager to Google Chat"
-      venue : "Main Room"
-      time : "01.20 PM"
-    # speaker
-    - speaker : "Dirgantara Rahadian"
-      speaker_image : "images/speakers/dirgantara-thumb.jpg"
-      subject : "Keynote #3 - Transformasi Infrastructure menjadi DevOps Possible or Impossible?"
-      venue : "Main Room"
-      time : "01.50 PM"
-    # speaker
-    - speaker : "Tonny Adhi Sabastian"
-      speaker_image : "images/speakers/tonny-adhi-thumb.JPG"
-      subject : "Talk #6 - OpenTelemetry Collector as Kubernetes Universal Telemetry Collector Pipeline"
-      venue : "Main Room"
-      time : "02.20 PM"
-    # speaker
-    - speaker : "Ikhsan Putra"
-      speaker_image : "images/speakers/ikhsan-putra-thumb.jpg"
-      subject : "Talk #7 - Build Compute Service from Scratch"
-      venue : "Main Room"
-      time : "02.50 PM"
-    # speaker
-    - speaker : "Abdul Hakim"
-      speaker_image : "images/speakers/hakim-thumb.jpg"
-      subject : "Keynote #4 - Develop Your Skill at ADINUSA Bootcamp"
-      venue : "Main Room"
-      time : "03.20 PM"
-    # speaker
-    - speaker : "Giri Kuncoro"
-      speaker_image : "images/speakers/giri-kuncoro-thumb.png"
-      subject : "Talk #8 - Kekuatan Super eBPF"
-      venue : "Main Room"
-      time : "03.50 PM"
-    # speaker
-    - speaker : "Yoga Hanggara"
-      speaker_image : "images/speakers/yoga-hanggara-thumb.jpeg"
-      subject : "Talk #9 - Teknologi Cloud Native Dibalik Layar Penanganan Pandemi di Jawa Barat (PIKOBAR)"
-      venue : "Main Room"
-      time : "04.20 PM"
+      venue : "Main Stage"
+      time : "08.30 - 08.50 AM"
+
     # speaker
     - speaker : "Master of Ceremony"
-      speaker_image : "images/speakers/mc-sandika-thumb.jpg"
-      subject : "Closing & Doorprize"
-      venue : "Main Room"
-      time : "04.50 PM"
+      subject : "Welcome Speech"
+      venue : "Main Stage"
+      time : "08.50 - 09.05 AM"
+
+    # speaker
+    - speaker : "Wiliam Buyung"
+      subject: "VMware Short Intro Session - Open Source & VMware"
+      venue: "Main Stage"
+      time: "09.05 - 09.15 AM"
+
+    - speaker : "Wisnu Pranajaya"
+      subject : "VMware Lightning Talk - Create Container Image from Source Code with Buildpacks"
+      venue : "Main Stage"
+      time : "09.15 - 09.25 AM"
+
+    - speaker : "Rahmat Agung Wibowo"
+      subject : "Keynote #1 – Hujan.io Project: Let’s Create an OpenStack Deployment Tool!"
+      venue : "Main Stage"
+      time : "09.25 - 10.05 AM"
+
+    # speaker
+    - speaker : "Santoso Suwignyo"
+      subject : "	Keynote #2 – Build, Run, and Manage Your Kubernetes Apps Across Multi-Cloud"
+      venue : "Main Stage"
+      time : "10.05 - 10.45 AM"
+
+    # speaker
+    - speaker : "Estu Fardani"
+      subject : "Lightning Talks - Sesi Kubernetes Pemalas dengan Kustomize (ID)"
+      venue : "Main Stage"
+      time : "10.45 - 11.15 AM"
+    
+    - speaker : "Fitra Aditya"
+      subject : "Lightning Talks - Scalable ETL Workflow using Airflow and Kubernetes (ID)"
+      venue : "Main Stage"
+      time : "10.45 - 11.15 AM"
+
+    # speaker
+    - speaker : "Himawan Nugroho "
+      subject : "Special Guest Speaker #1 – Bagaimana Network Engineer Jaman Now Melakukan Otomasi di Jaman Pandemi (ID)"
+      venue : "Main Stage"
+      time : "11.15 AM - 12.05 PM"
+
+    # speaker
+    - speaker : ""
+      subject : "Lunch Break, Booth visit & Networking Session"
+      venue : "Main Stage"
+      time : "12.05 - 13.35 PM"
+
+    # speaker
+    - speaker : "Muhammad Lutfi As Syafii"
+      subject : "Introduction to Open Source Networking Landscape & Demo (ID)"
+      venue : "Breakout Room 1"
+      time : "13.35 - 14.05 PM"
+
+    # speaker
+    - speaker : "Ahmad Haris"
+      subject : "Menyambungkan Koperasi-Koperasi di Nusantara dengan Bank-Bank di Indonesia (ID)"
+      venue : "Breakout Room 2"
+      time : "13.35 - 14.05 PM"
+
+    # speaker
+    - speaker : "Sulaiman Al Farisi"
+      subject : "Introduction to Kata Containers (ID)"
+      venue : "Breakout Room 3"
+      time : "13.35 - 14.05 PM"
+      
+    # speaker
+    - speaker : "David Gunawan & Dharma Yusuf Setiawan"
+      subject : "Edge Computing Experimentation with StarlingX (ID)"
+      venue : "Breakout Room 1"
+      time : "13.35 - 14.05 PM"
+
+    # speaker
+    - speaker : "Jischak Martinus Tuny"
+      subject : "Orchestrate Container App and Managing Data Processing App using OpenStack Services (ID)"
+      venue : "Breakout Room 2"
+      time : "13.35 - 14.05 PM"
+
+    # speaker
+    - speaker : "Imre Nagi"
+      subject : "Extending Kubernetes Capabilities with Admission Controller to Ensuring Application Stabiity and Security in Kubernetes (ID)"
+      venue : "Breakout Room 3"
+      time : "13.35 - 14.05 PM"
+
+    # speaker
+    - speaker : "Masagung Nugroho"
+      subject : "Open Dissagregated Router (ID)"
+      venue : "Breakout Room 1"
+      time : "14.05 - 14.35 PM"
+
+    # speaker
+    - speaker : "Riky Lutfi Hamzah"
+      subject : "How to Define and Impelement Service Level Objectives (EN)"
+      venue : "Breakout Room 2"
+      time : "14.05 - 14.35 PM"
+    
+    #speaker
+    - speaker : "Didiet A. Prambudiono"
+      subject : "Log Monitoring with Grafana/Loki (ID)"
+      venue : "Breakout Room 3"
+      time : "14.05 - 14.35 PM"
+   
+  #speaker
+    - speaker : "Darian Rizaludin"
+      subject : "Tips dan Trik Infrastruktur Server Daring untuk Sekolah dan Kampus (ID)"
+      venue : "Breakout Room 1"
+      time : "14.35 - 15.05 PM"
+
+  #speaker
+    - speaker : "Tonny Adhi Sabastian"
+      subject : "Adopting Open Telemetry as Distributed Tracer on Your Microservices at Kubernetes (ID)"
+      venue : "Breakout Room 2"
+      time : "14.35 - 15.05 PM"
+
+  #speaker
+    - speaker : "Zufar Dhiyaulhaq"
+      subject : "Single Sign on for Kubernetes: A Comprehensive Study (EN)"
+      venue : "Breakout Room 3"
+      time : "14.35 - 15.05 PM"   
+
+ # break
+    - speaker : ""
+      subject : "Break, Booth visit & Networking Session"
+      venue : "Main Stage"
+      time : "15.05 - 15.25 PM" 
+
+ #speaker
+    - speaker : "Samsul Maarif"
+      subject : "Lightning Talks - Introduction to Gitpod"
+      venue : "Main Stage"
+      time : "15.25 - 16.10 PM"  
+
+ #speaker
+    - speaker : "Saputro Aryulianto "
+      subject : "Lightning Talks - NUMA and CPU Pinning in OpenStack (ID)"
+      venue : "Main Stage"
+      time : "15.25 - 16.10 PM"  
+
+ #speaker
+    - speaker : "Iwan Setiawan"
+      subject : "Lightning Talks - Preparing ONOS Development Environment (ID)"
+      venue : "Main Stage"
+      time : "15.25 - 16.10 PM"  
+
+ #speaker
+    - speaker : "Ananda Dwi Rahmawati"
+      subject : "Special Guest Speaker #2 – Continous Delivery with Spinnaker on Kubernetes Cluster (ID)"
+      venue : "Main Stage"
+      time : "16.10 - 16.50 PM"
+        
+#speaker
+    - speaker : "Irvi Aini"
+      subject : "Special Guest Speaker #3 – Contributing to Open Source Project"
+      venue : "Main Stage"
+      time : "16.50 - 17.30 PM"  
+
+#cloudnativeroom
+    - speaker : "Cloud Native Indonesia"
+      subject : "Yuk Kontribusi ke Kubernetes lewat Dokumentasi!"
+      venue : "Cloud Native Room"
+      time : "15.25 - 17.30 PM"  
+
+#closing
+    - speaker : "Master of Ceremony"
+      subject : "Closing"
+      venue : "Main Stage"
+      time : "15.25 - 17.30 PM"  
 
   # tab item
   #  - name : "Day-02"
@@ -169,7 +234,7 @@ tab:
     #  - speaker : "TBA"
     #  speaker_image : "images/speakers/tba-thumb-one.jpg"
     #  subject : "TBA"
-    #  venue : "Main Room"
+    #  venue : "Main Stage"
     #  time : "9.00 AM"
 
   #  - name : "Day-03"
@@ -179,7 +244,7 @@ tab:
     #- speaker : "TBA"
     #speaker_image : "images/speakers/tba-thumb-one.jpg"
     #subject : "TBA"
-    #venue : "Main Room"
+    #venue : "Main Stage"
     #time : "9.00 AM"
 
 ############ Registration ####################
